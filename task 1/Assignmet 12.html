@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment 12</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+
+		}
+
+		Body {
+			background-color: #0E86D2;
+
+		}
+
+		/* ----section 1--- */
+
+		h1 {
+			text-align: center;
+			color: white;
+			font-size: 40px;
+			margin-top: 40px;
+
+		}
+
+		h6 {
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			margin-bottom: 50px;
+
+		}
+
+		.container {
+			width: 1100px;
+			height: 600px;
+
+			margin: auto;
+
+
+		}
+
+		.box1 {
+			width: 28%;
+			height: 520px;
+			background-color: white;
+			margin-left: 30px;
+			float: left;
+			margin-top: 15px;
+
+		}
+
+		.box1A {
+			width: 100%;
+			height: 50px;
+			background-color: #E3E3E3;
+			text-align: center;
+			line-height: 50px;
+			font-size: 19px;
+		}
+
+		.box1B {
+			width: 300px;
+			height: 200px;
+
+			float: left;
+		}
+
+		.box1BA {
+			width: 150PX;
+			height: 150PX;
+			color: #0E86D2;
+			float: left;
+			font-size: 60px;
+			text-align: right;
+			line-height: 170px;
+			padding-right: 5px;
+
+
+		}
+
+		.box1BB {
+			width: 150PX;
+			height: 150PX;
+			color: #8D8D8D;
+			float: left;
+			padding-left: 5px;
+			padding-top: 85px;
+		}
+
+		.box1C {
+			width: 180px;
+			height: 200px;
+			margin-left: 70px;
+			line-height: 50px;
+		}
+
+		.box1D {
+			width: 200px;
+			height: 70px;
+			margin-left: 50px;
+			line-height: 70px;
+		}
+
+		.box1E {
+			width: 180px;
+			height: 50px;
+			margin-left: 70px;
+			line-height: 50px;
+		}
+
+		.box1F {
+			width: 250px;
+			height: 10px;
+			margin-left: 40px;
+			line-height: 50px;
+		}
+
+		li {
+			list-style-type: circle;
+			font-size: 25px;
+		}
+
+		button {
+			width: 250px;
+			height: 50px;
+			margin-left: 25px;
+			margin-top: 50px;
+			background-color: green;
+			color: white;
+		}
+
+
+		/* ----section 2--- */
+		.box2 {
+			width: 28%;
+			height: 560px;
+			background-color: white;
+			margin-left: 40px;
+			float: left;
+
+		}
+
+		.box2A {
+			width: 100%;
+			height: 50px;
+			background-color: #E3E3E3;
+			text-align: center;
+			line-height: 50px;
+			font-size: 19px;
+		}
+
+		.box2B {
+			width: 300px;
+			height: 200px;
+			background-color: #8D8D8D;
+			float: left;
+		}
+
+		.box2BA {
+			width: 150PX;
+			height: 150PX;
+			color: #0E86D2;
+			float: left;
+			font-size: 60px;
+			text-align: right;
+			line-height: 170px;
+			padding-right: 5px;
+
+
+		}
+
+		.box2BB {
+			width: 150PX;
+			height: 150PX;
+			color: #8D8D8D;
+			float: left;
+			padding-left: 5px;
+			padding-top: 85px;
+		}
+
+		.box2C {
+			width: 180px;
+			height: 200px;
+			margin-left: 70px;
+			line-height: 50px;
+		}
+
+		.box2D {
+			width: 200px;
+			height: 70px;
+			margin-left: 50px;
+			line-height: 70px;
+		}
+
+		.box2E {
+			width: 180px;
+			height: 50px;
+			margin-left: 70px;
+			line-height: 50px;
+		}
+
+		.box2F {
+			width: 250px;
+			height: 40px;
+			margin-left: 40px;
+			line-height: 50px;
+		}
+
+		li {
+			list-style-type: circle;
+			font-size: 25px;
+		}
+
+		button {
+			width: 250px;
+			height: 50px;
+			margin-left: 25px;
+			margin-top: 50px;
+			background-color: green;
+			color: white;
+			border-radius: 7px;
+		}
+
+
+		/* ----section 3--- */
+		.box3 {
+			width: 28%;
+			height: 520px;
+			background-color: white;
+			margin-left: 40px;
+			float: left;
+			margin-top: 15px;
+		}
+
+
+		.box3A {
+			width: 100%;
+			height: 50px;
+			background-color: #E3E3E3;
+			text-align: center;
+			line-height: 50px;
+			font-size: 19px;
+		}
+
+		.box3B {
+			width: 300px;
+			height: 200px;
+			background-color: white;
+			float: left;
+		}
+
+		.box3BA {
+			width: 150PX;
+			height: 150PX;
+			color: #0E86D2;
+			float: left;
+			font-size: 60px;
+			text-align: right;
+			line-height: 170px;
+			padding-right: 5px;
+
+
+		}
+
+		.box3BB {
+			width: 150PX;
+			height: 150PX;
+			color: #8D8D8D;
+			float: left;
+			padding-left: 5px;
+			padding-top: 85px;
+		}
+
+		.box3C {
+			width: 180px;
+			height: 200px;
+			margin-left: 70px;
+			line-height: 50px;
+		}
+
+		.box3D {
+			width: 200px;
+			height: 70px;
+			margin-left: 50px;
+			line-height: 70px;
+		}
+
+		.box3E {
+			width: 200px;
+			height: 50px;
+			margin-left: 70px;
+			line-height: 50px;
+		}
+
+		.box3F {
+			width: 250px;
+			height: 3px;
+			margin-left: 40px;
+			line-height: 50px;
+		}
+
+		li {
+			list-style-type: circle;
+			font-size: 25px;
+		}
+
+		button {
+			width: 250px;
+			height: 50px;
+			margin-left: 25px;
+			margin-top: 75px;
+			background-color: green;
+			color: white;
+			border-radius: 7px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- section 1 -->
+
+	<h1>How much will it cost me?</h1>
+	<br>
+
+	<h6>
+		<p>It's rather inexpensive to use Jott.ly's suite of tools compared to several other</p> services out there.
+		We have several options to fit you budget and needs:
+	</h6>
+
+	<div class="container">
+
+		<div class="box1">
+			<div class="box1A">INDIVIDUALS & FAMILY</div>
+			<div class="box1B">
+				<div class="box1BA"><sup>$</sup>2
+				</div>
+				<div class="box1BB">
+					<p>per month</p>
+					<p>/per user</p>
+				</div>
+
+				<div class="box1C">
+					<ul>
+						<li>Unlimited notes</li>
+					</ul>
+				</div>
+				<div class="box1D">
+					<ul>
+						<li>Unlimited members</li>
+					</ul>
+				</div>
+				<div class="box1E">
+					<ul>
+						<li><b>2GB of storage</b></li>
+					</ul>
+				</div>
+				<div class="boc1F">
+					<button>SELECT THIS PLAN</button>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+		<!-- section 2 -->
+
+		<div class="box2">
+			<div class="box2A">SMALL BUSINESSES</div>
+			<div class="boxB">
+				<div class="box2BA"><sup>$</sup>5
+				</div>
+				<div class="box2BB">
+					<p>per month</p>
+					<p>/per user</p>
+				</div>
+
+				<div class="box2C">
+					<ul>
+						<li>Unlimited notes</li>
+					</ul>
+				</div>
+				<div class="box2D">
+					<ul>
+						<li>Unlimited members</li>
+					</ul>
+				</div>
+				<div class="box2E">
+					<ul>
+						<li><b>15GB of storage</b></li>
+					</ul>
+				</div>
+
+				<div class="box2F">
+					<ul>
+						<li>Real-time collaboration</li>
+					</ul>
+				</div>
+				<div class="boX2F">
+					<button>SELECT THIS PLAN</button>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- section 3 -->
+		<div class="box3">
+			<div class="box3A">ENTERPRISE</div>
+			<div class="boxB">
+				<div class="box3BA"><sup>$</sup>8
+				</div>
+				<div class="box3BB">
+					<p>per month</p>
+					<p>/per user</p>
+				</div>
+
+				<div class="box3C">
+					<ul>
+						<li>Unlimited notes</li>
+					</ul>
+				</div>
+				<div class="box3D">
+					<ul>
+						<li>Unlimited members</li>
+					</ul>
+				</div>
+				<div class="box3E">
+					<ul>
+						<li><b>Unlimited storage</b></li>
+					</ul>
+				</div>
+
+				<div class="box3F">
+					<ul>
+						<li>Real-time collaboration</li>
+					</ul>
+				</div>
+
+
+
+				<!-- section 4 -->
+				<div class="boX3F">
+					<button>SELECT THIS PLAN</button>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	</div>
+
+
+
+</body>
+
+</html>

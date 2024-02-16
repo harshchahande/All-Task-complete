@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 580px;
+	height: 520px;
+	background-color: #F14671;
+	margin: 50px auto;
+	border-bottom: 10px solid #E12052;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 40px;
+}
+.box1{
+	width: 100px;
+	height: 80px;
+	background-color: yellow;
+	border-radius: 20px;
+	border-bottom: 5px solid #D18C13;
+	float: left;
+	margin: 15px;
+	color: #918B7B;
+}
+.box2{
+	width: 415px;
+	height: 80px;
+	background-color: #27547D;
+	border-radius: 20px;
+	border-top: 5px inset#27547D;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: white;
+	padding-left:350px;
+}
+.box3,.box7,.box11,.box15{
+	width: 110px;
+	height: 80px;
+	background-color: #27547D;
+	border-radius: 20px;
+	border-bottom: 5px solid #272540;
+	float: left;
+	clear: both;
+	margin: 10px;
+	margin-left: 15px;
+	color: white;
+}
+.box4,.box5,.box8,.box9,.box12,.box13,.box16{
+	width: 110px;
+	height: 80px;
+	background-color: #27547D;
+	border-radius: 20px;
+	border-bottom: 5px solid #272540;
+	float: left;
+	margin: 10px;
+	margin-left: 25px;
+	color: white;
+}
+
+.box6,.box10,.box14,.box18{
+	width: 110px;
+	height: 80px;
+	background-color: yellow;
+	border-radius: 20px;
+	border-bottom: 5px solid #272540;
+	float: left;
+	margin: 10px;
+	margin-left: 25px;
+	color: #918B7B;
+}
+
+
+.box17{
+	width: 110px;
+	height: 80px;
+	background-color: #05D79F;
+	border-radius: 20px;
+	border-bottom: 5px solid #207F67;
+	float: left;
+	margin: 10px;
+	margin-left: 25px;
+	color: #918B7B;
+}
